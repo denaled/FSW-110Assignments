@@ -1,0 +1,1 @@
+document.getElementById("headOne").innerHTML = "Hello From index.js"
