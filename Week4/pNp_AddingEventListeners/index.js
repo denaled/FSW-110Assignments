@@ -58,8 +58,8 @@ boxID.addEventListener("mouseleave", mNormal);
 boxID.addEventListener("mousedown", mDown);
 boxID.addEventListener("mouseup", mUp);
 boxID.addEventListener("dblclick", mDblClick);
-boxID.addEventListener("wheel", mScroll);
-
+//boxID.addEventListener("wheel", mScroll);
+document.body.addEventListener("wheel", mScroll);
 document.body.addEventListener("keypress", keydownEvents);
 document.body.addEventListener("keyup", mNormal);
 
