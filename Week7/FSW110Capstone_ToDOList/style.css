@@ -1,17 +1,14 @@
 html, body{
     margin: 0;
     padding: 0;
-}
-   
-
+}  
     #header{
         grid-area: h;
         width: 100%; 
         text-align: center;
         background-color: darkolivegreen;
         color:black;
-        justify-content: center
-       
+        justify-content: center;
     }
    
     input {
@@ -54,17 +51,17 @@ ul {
     user-select: none;
   }
   
-  /* Set all odd list items to a different color (zebra-stripes) */
+  /* Set all odd list items different color */
   ul li:nth-child(odd) {
     background: lightgray;
   }
   
-  /* Darker background-color on hover */
+  /* -color on hover */
   ul li:hover {
     background: gray;
   }
   
-  /* When clicked on, add a background color and strike out text */
+  /*  strike out text */
   ul li.checked {
     background: olive;
     color: #fff;
