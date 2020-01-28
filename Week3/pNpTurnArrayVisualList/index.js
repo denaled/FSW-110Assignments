@@ -26,4 +26,4 @@ for (i = 0; i <= names.length; ++i){
     document.getElementById(names[i]).style.color = "blue";
     document.getElementById(names[i]).style.fontFamily = "georgia";  
 };
-names.forEach.
+//names.forEach.
